@@ -23,8 +23,8 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GYD-418&show_icons=true&count_private=true&theme=tokyonight" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GYD-418&layout=compact&theme=tokyonight" width="40%" />
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=GYD-418&show_icons=true&theme=tokyonight" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=GYD-418&layout=compact&theme=tokyonight" width="40%" alt="Top Languages" />
 </p>
 
 ---
