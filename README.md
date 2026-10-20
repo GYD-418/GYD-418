@@ -5,6 +5,12 @@
 从 STM32 裸机到边缘 AI 推理，从 SolidWorks 机械设计到云端 IoT 平台，从嘉立创 EDA 画板到竞赛拿奖，喜欢把一个完整的智能硬件系统从零件做到成品。
 
 <p align="center">
+  <a href="https://github.com/GYD-418?tab=repositories"><img src="https://img.shields.io/badge/%E5%85%AC%E5%BC%80%E4%BB%93%E5%BA%93-24-1f6feb?style=flat-square" alt="公开仓库" /></a>
+  <img src="https://img.shields.io/badge/%E7%AB%9E%E8%B5%9B%E8%8E%B7%E5%A5%96-%E5%9B%BD18%C2%B7%E7%9C%8118%C2%B7%E6%A0%A17-d85a30?style=flat-square" alt="竞赛获奖" />
+  <img src="https://img.shields.io/badge/%E6%96%B9%E5%90%91-%E5%B5%8C%E5%85%A5%E5%BC%8F%C2%B7%E8%BE%B9%E7%BC%98AI-1d9e75?style=flat-square" alt="方向" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
@@ -23,9 +29,40 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=GYD-418&show_icons=true&theme=tokyonight" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=GYD-418&layout=compact&theme=tokyonight" width="40%" alt="Top Languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=GYD-418&show_icons=true&hide_border=true&locale=cn&theme=github_dark&include_all_commits=true" />
+    <img height="165" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=GYD-418&show_icons=true&hide_border=true&locale=cn&theme=default&include_all_commits=true" alt="GitHub 统计" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=GYD-418&layout=compact&hide_border=true&locale=cn&theme=github_dark&langs_count=8" />
+    <img height="165" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=GYD-418&layout=compact&hide_border=true&locale=cn&theme=default&langs_count=8" alt="常用语言" />
+  </picture>
 </p>
+
+---
+
+## 📌 精选项目
+
+| 项目 | 一句话说明 | 亮点 |
+|------|-----------|------|
+| [smart-logistics-robot-2024](https://github.com/GYD-418/smart-logistics-robot-2024) | 2024 工程训练大赛 · 智能物流搬运车 | 三块 STM32 板协同 + OpenMV 视觉 + 语音交互 + 西门子 HMI |
+| [ota-esp32-stm32](https://github.com/GYD-418/ota-esp32-stm32) | ESP32 桥接 STM32 的无线 OTA 升级方案 | 四分区 Flash + Bootloader + CRC 双校验 + Web 仪表盘 |
+| [hwt101-imu-driver](https://github.com/GYD-418/hwt101-imu-driver) | HWT101 陀螺仪 UART 协议解析库 | 纯 C、零平台依赖，可直接移植到任意 MCU |
+| [esp32-p4c5-core-module](https://github.com/GYD-418/esp32-p4c5-core-module) | ESP32-P4C5 核心板（嘉立创 EDA 专业版） | 模组级设计：1.1V DCDC + Flash/PSRAM 独立电源域 + MIPI + 8 路 0Ω 隔离 |
+
+## 📖 目录
+
+- [获奖证书](#-获奖证书)
+- [技术栈](#️-技术栈)
+- [项目总览](#-项目总览)
+  - [学科竞赛](#-学科竞赛)
+  - [硬件设计](#️-硬件设计嘉立创-eda-专业版)
+  - [课程与设计项目](#-课程与设计项目)
+  - [组件库与工具](#-组件库与工具)
+  - [机械设计](#️-机械设计)
+- [正在做](#-正在做)
+- [许可证](#-许可证)
+- [交流](#-交流)
 
 ---
 
@@ -90,11 +127,11 @@ Android（Kotlin）· 华为云 IoTDA（MQTT/MQTTS）· Python
 
 ### 🔧 组件库与工具
 
-| 项目 | 仓库 | 亮点 |
-|------|------|------|
-| ESP32 → STM32 无线 OTA | [ota-esp32-stm32](https://github.com/GYD-418/ota-esp32-stm32) | 四分区 Flash + Bootloader + CRC 双校验 + Web 仪表盘 |
-| HWT101 陀螺仪驱动库 | [hwt101-imu-driver](https://github.com/GYD-418/hwt101-imu-driver) | 纯 C 无平台依赖，可移植 |
-| API Key 管理工具 | [api-key-manager](https://github.com/GYD-418/api-key-manager) | PyQt5 大模型密钥集中管理 |
+| 项目 | 仓库 | 亮点 | 许可 |
+|------|------|------|------|
+| ESP32 → STM32 无线 OTA | [ota-esp32-stm32](https://github.com/GYD-418/ota-esp32-stm32) | 四分区 Flash + Bootloader + CRC 双校验 + Web 仪表盘 | [![MIT](https://img.shields.io/badge/MIT-1d9e75?style=flat-square)](https://github.com/GYD-418/ota-esp32-stm32/blob/main/LICENSE) |
+| HWT101 陀螺仪驱动库 | [hwt101-imu-driver](https://github.com/GYD-418/hwt101-imu-driver) | 纯 C 无平台依赖，可移植 | [![MIT](https://img.shields.io/badge/MIT-1d9e75?style=flat-square)](https://github.com/GYD-418/hwt101-imu-driver/blob/main/LICENSE) |
+| API Key 管理工具 | [api-key-manager](https://github.com/GYD-418/api-key-manager) | PyQt5 大模型密钥集中管理 | [![MIT](https://img.shields.io/badge/MIT-1d9e75?style=flat-square)](https://github.com/GYD-418/api-key-manager/blob/main/LICENSE) |
 
 ### 🖨️ 机械设计
 
@@ -112,5 +149,21 @@ Android（Kotlin）· 华为云 IoTDA（MQTT/MQTTS）· Python
 - 华为云 IoTDA 设备接入与物模型开发
 
 ---
+
+## 📄 许可证
+
+| 范围 | 许可 |
+|------|------|
+| 通用库与工具（`hwt101-imu-driver`、`ota-esp32-stm32`、`api-key-manager`） | **MIT**，可自由用于商业与非商业项目，保留版权声明即可 |
+| 竞赛作品、课程与毕业设计 | **保留所有权利**，仅供学习参考；请勿直接用于参赛提交或课程作业 |
+
+需要在竞赛/课程项目中复用部分代码，欢迎开 Issue 说明用途，一般都会同意。
+
+---
+
+## 💬 交流
+
+- 发现 Bug 或有改进建议 → 直接在对应仓库开 Issue
+- 技术交流或合作 → GitHub 私信，或在你关注的仓库下留言
 
 *持续造物，欢迎交流 ⚡*
