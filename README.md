@@ -129,7 +129,7 @@ Android（Kotlin）· 华为云 IoTDA（MQTT/MQTTS）· Python
 
 | 项目 | 仓库 | 亮点 | 许可 |
 |------|------|------|------|
-| ESP32 → STM32 无线 OTA | [ota-esp32-stm32](https://github.com/GYD-418/ota-esp32-stm32) | 四分区 Flash + Bootloader + CRC 双校验 + Web 仪表盘 | [![MIT](https://img.shields.io/badge/MIT-1d9e75?style=flat-square)](https://github.com/GYD-418/ota-esp32-stm32/blob/main/LICENSE) |
+| ESP32 → STM32 无线 OTA | [ota-esp32-stm32](https://github.com/GYD-418/ota-esp32-stm32) | 四分区 Flash + Bootloader + CRC 双校验 + Web 仪表盘 | [![MIT](https://img.shields.io/badge/MIT-1d9e75?style=flat-square)](https://github.com/GYD-418/ota-esp32-stm32/blob/master/LICENSE) |
 | HWT101 陀螺仪驱动库 | [hwt101-imu-driver](https://github.com/GYD-418/hwt101-imu-driver) | 纯 C 无平台依赖，可移植 | [![MIT](https://img.shields.io/badge/MIT-1d9e75?style=flat-square)](https://github.com/GYD-418/hwt101-imu-driver/blob/main/LICENSE) |
 | API Key 管理工具 | [api-key-manager](https://github.com/GYD-418/api-key-manager) | PyQt5 大模型密钥集中管理 | [![MIT](https://img.shields.io/badge/MIT-1d9e75?style=flat-square)](https://github.com/GYD-418/api-key-manager/blob/main/LICENSE) |
 
